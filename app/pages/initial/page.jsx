@@ -16,23 +16,30 @@ const InitialPage = () => {
             </h1>
           </div>
           <div
-            className="relative"
+            className="relative w-32 h-32 flex items-center justify-center"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
             {/* images(coffee gif) */}
-            <Image
-              src={Coffee}
-              alt="coffee"
-              className="w-32 h-32 hover:scale-[120%] ease-in-out transform transition-transform duration-300"
-            />
-            <span
+            {hovered ? (
+              <button className="bg-blue-500 text-white font-extrabold py-2 px-4 rounded transform transition-transform duration-300">
+                Enter
+              </button>
+            ) : (
+              <Image
+                src={Coffee}
+                alt="coffee"
+                className="w-32 h-32 hover:scale-[120%] ease-in-out transform transition-transform duration-300"
+              />
+            )}
+
+            {/* <span
               className={`absolute top-20 left-28 text-white font-extrabold pl-5 ${
                 hovered ? "opacity-100" : "opacity-0"
               }`}
             >
               Ready?
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
