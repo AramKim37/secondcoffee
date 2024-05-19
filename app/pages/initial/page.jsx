@@ -27,11 +27,11 @@ const InitialPage = () => {
               className="w-32 h-32 hover:scale-[120%] ease-in-out transform transition-transform duration-300"
             />
             <span
-              className={`absolute top-20 left-28 ${
+              className={`absolute top-20 left-28 text-white font-extrabold pl-5 ${
                 hovered ? "opacity-100" : "opacity-0"
               }`}
             >
-              Go
+              Ready?
             </span>
           </div>
         </div>
