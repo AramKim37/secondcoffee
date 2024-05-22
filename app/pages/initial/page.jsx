@@ -9,7 +9,7 @@ const InitialPage = () => {
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-slate-300 initial">
       <div className="flex items-center gap-10">
-        <div className="flex items-center w-[768px] h-[500px] bg-white blur-sm flex-col">
+        <div className="flex items-center w-[768px] h-[500px] spatial bg-white flex-col">
           <div className="items-center flex justify-center">
             <h1 className="text-white font-extrabold text-4xl tracking-widest">
               Second Coffee

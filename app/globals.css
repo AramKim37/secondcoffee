@@ -9,3 +9,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.spatial {
+  background: rgba(253, 253, 253, 0.382);
+  backdrop-filter: blur(15px);
+}
