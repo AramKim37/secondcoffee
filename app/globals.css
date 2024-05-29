@@ -22,6 +22,6 @@
 
 .spatial {
   /* background: rgba(253, 253, 253, 0.382); */
-  /* background: rgba(181, 75, 75, 0.382); */
+  background: rgba(147, 145, 145, 0.382);
   backdrop-filter: blur(15px);
 }
