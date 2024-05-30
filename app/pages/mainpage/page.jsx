@@ -7,7 +7,7 @@ import RightSideBar from "@/app/components/RightSideBar";
 
 const MainPage = () => {
   return (
-    <main className="mainbg flex w-full px-10">
+    <main className="mainbg flex w-full p-10 gap-2 text-white">
       <Sidebar />
       <Main />
       <RightSideBar />
